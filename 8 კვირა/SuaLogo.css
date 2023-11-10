@@ -1,0 +1,86 @@
+@font-face {
+    src: url(./fonts/Roboto/Roboto-Regular.ttf);
+    font-family: "Roboto";
+    src: url(./fonts/Raleway/Raleway-Regular.ttf);
+    font-family: "Raleway";
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;    
+}
+
+.left-side{
+    width: 30%;
+    height: 100vh;
+    background-color: rgba(255, 255, 255, 0.10);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    display: flex;
+}
+
+h1{
+    font-family: "Roboto";
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    letter-spacing: 1.5px;
+}
+
+.hashtag{
+    width: 60px;
+    height: 60px;
+    margin-top: 25px;
+}
+
+.input{
+    width: 200px;
+    height: 100px;
+}
+
+.top-input{
+    display: flex;
+    position: relative;
+}
+
+.text-input {
+    width: 200px;
+    height: 40px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid white 0.8px; 
+}
+
+::placeholder{
+    font-family: "Raleway";
+    font-weight: 400;
+    color: white;
+}
+
+.photo{
+    position: absolute;
+    align-self: center;
+    right: 5px;
+}
+
+.submit-button{
+    font-family: "Roboto";
+    width: 200px;
+    height: 30px;
+    background-color: rgba(207, 216, 220, 1);
+    border: none;
+    border-radius: 1px;
+    margin-top: 20px;
+}
